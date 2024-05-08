@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Ccontratação de Dev's</h1>
+        <p id="subtitulo">Preencha as informações</p>
+        <br>
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome" >Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required> 
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="mail">Email</label>
+                <input type="email" name="email" id="email"required>
+            </div>
+            <div class="campo">
+                <label for="opc">De qual lado da aaplicação você desenvolve?</label>
+                <label for="op1">
+                    <input type="radio" name="devweb" value="frontend">Front-end
+                </label>
+                <label for="op2">
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label for="op2">
+                    <input type="radio" name="devweb" value="fullstack">fullstack
+                </label>
+            </div>
+            <div class="campo">
+                <label for="sen">Senioridade</label>
+                <select name="senioridade" id="senioridade">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="jr">Junior</option>
+                    <option value="pl">Pleno</option>
+                    <option value="sen">Senior</option>
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="">Quais linguagens você usa para trabalhar?</label><br><br>
+                    <input type="checkbox" id="t1" name="t1" value="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="t2" name="t2" value="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" id="t3" name="t3" value="javascript">
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" id="t4" name="t4" value="python">
+                    <label for="python">Python</label>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <br>
+                <label for="">nos conte um pouco sobre você no mundo da programação:</label>
+                <textarea name="experiencia" id="experiencia" row="6" style="width: 30em;"></textarea>
+            </div>
+            <button type="submit" class="botao">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
