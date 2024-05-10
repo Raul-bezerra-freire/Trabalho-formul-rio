@@ -1,0 +1,60 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: green;
+}
+#titulo{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40%;
+}
+#subtitulo{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 43%;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    margin-left: 3%;
+    margin-top: 2%;
+    justify-content: center;
+}
+input, select, textarea, button{
+    border-radius: 8px;
+}
+.campo{
+    margin-bottom: 1.5em;
+}
+.campo label{
+    margin-bottom: 1em;
+    color: lime;
+    display: block;
+}
+fieldset.grupo .campo{
+    float: left;
+}
+.campo input[type="text"], .campo [type="email"], .campo select, .campo textarea{
+    padding: 0.5em;
+    border: 2px solid white; 
+    box-shadow: 3px 3px 3px;
+    display: block;
+}
+.campo select option{
+    padding-right: 2em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: black;
+}
+.botao{
+    font-size: 1.5em;
+    border: 10;
+    border-color:  aliceblue;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 3px 3px 3px;
+    position: absolute;
+    top: 123%;
+    left: 50%;
+}
